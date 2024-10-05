@@ -19,7 +19,7 @@ app.use(express.json());
 //database connection
 mongoose
 .connect(MONGO_URI)
-.then(()=> console.log("MongodB is connected"))
+.then(()=> console.log("Connected to DB"))
 .catch((e)=> console.log(e));
 
 
