@@ -57,6 +57,7 @@ function AuthPage() {
                                     formControls={signUpFormControls}
                                     formData={signUpFormData}
                                     setFormData={setSignUpFormData}
+                                    
                                 />
                             </CardContent>
                         </Card>
