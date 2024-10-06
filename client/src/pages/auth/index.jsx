@@ -30,9 +30,9 @@ function AuthPage() {
 
                     {/* Sign In Tab */}
                     <TabsContent value="signin">
-                        <Card className="p-6 space-y-4">
+                        <Card className="p-6  bg-green-300 space-y-4">
                             <CardHeader>
-                                <CardTitle>Sign in to your account</CardTitle>
+                                <CardTitle className="text-blue-600 text-2xl font-semibold">Sign in to your account</CardTitle>
                                 <CardDescription>Enter your email and password to access your account</CardDescription>
                             </CardHeader>
                             <CardContent className="space-y-2">
@@ -47,10 +47,10 @@ function AuthPage() {
 
                     {/* Sign Up Tab */}
                     <TabsContent value="signup">
-                        <Card className="p-6 space-y-4">
+                        <Card className="p-6  bg-green-300 space-y-4">
                             <CardHeader>
-                                <CardTitle>Create a new account</CardTitle>
-                                <CardDescription>Enter your details to get started</CardDescription>
+                                <CardTitle className="text-blue-600 text-2xl font-semibold" >Create a new account</CardTitle>
+                                <CardDescription className=" font-2xl">Enter your details to get started</CardDescription>
                             </CardHeader>
                             <CardContent className="space-y-2">
                                 <CommonForm
